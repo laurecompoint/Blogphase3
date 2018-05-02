@@ -9,6 +9,7 @@ if(isset($_GET['article_id'])){
 
 	$article = getArticle( $_GET['article_id'] );
 
+
 	if(!$article['id']){
 		header('location:index.php');
 		exit;
@@ -22,5 +23,9 @@ else{
 	header('location:index.php');
 	exit;
 }
+if(isset($_GET['article_id'])){
 
+	$commentaire = getcommentaire( $_GET['commentaire_id'] );
+
+}
 ?>
