@@ -1,0 +1,43 @@
+header
+{
+  color:red;
+  background-color:green; text-align:center; height:250px; width:100%;line-height:15em;
+}
+
+nav
+{
+  text-align: center; background-color:#A45E40; height:250px; width:100%;margin-bottom: 0;line-height:15em;
+}
+div
+{
+  background-color:#47A440; width: 500px; margin-left: auto;margin-right:auto;margin-top: 0;flex-shrink:10px;
+
+}
+
+h1
+{
+  text-align: center;margin-botton:0;margin-top: 0;
+}
+
+h2
+{
+  text-align: center;
+}
+h3
+{
+  text-align: center;margin-botton:0;
+}
+section
+{
+  background-color:#47A440;text-align: center; width: 500px; margin-left: auto;margin-right:auto;height: 130px;
+}
+P
+{
+  margin-top=0;text-align: center;
+}
+article
+{
+  flex-shrink:10px;
+  background-color: red;
+  height: 300px;
+}
